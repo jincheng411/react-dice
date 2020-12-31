@@ -1,11 +1,13 @@
 import './App.css';
 import React, { Component } from 'react';
-import Dice from './Dice';
+import RollDice from './RollDice';
 
 class App extends Component {
   render() {
     return (
-      < Dice />
+      <div className="App">
+        <RollDice />
+      </div>
     )
   }
 }
